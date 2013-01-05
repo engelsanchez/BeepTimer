@@ -26,14 +26,24 @@
 - (void) buttonDown: (id) sender event: (UIEvent*) e {
     if (self.timer) {
         [self stopTimer];
+        [button setTitle:@"START" forState:UIControlStateNormal];
+        [button setTitle:@"START" forState:UIControlStateHighlighted];
     } else {
         [self startTimer];
+        [button setTitle:@"STOP" forState:UIControlStateNormal];
+        [button setTitle:@"STOP" forState:UIControlStateHighlighted];
     }
 }
 
 - (void) onTimerTick:data {
     self.counter++;
-    label.text = [NSString stringWithFormat:@"%i", self.counter];
+    [self refreshLabel];
+}
+
+- (void) refreshLabel {
+    int mins = self.counter / 60;
+    int secs = self.counter % 60;
+    label.text = [NSString stringWithFormat:@"%02d:%02d", mins, secs];
 }
 
 - (void) stopTimer {
@@ -44,31 +54,25 @@
 
 - (void) startTimer {
     self.counter = 0;
-    label.text = @"0";
+    [self refreshLabel];
     [self.timer invalidate];
     
     NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:1.0
                                                       target:self selector:@selector(onTimerTick:)
                                                     userInfo:nil repeats:YES];
     self.timer = timer;
-    
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    // Override point for customization after application launch.
-    //[self startTimer];
     [self.button addTarget:self action:@selector(buttonDown:event:) forControlEvents:UIControlEventTouchUpInside];
-    
 }
 
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
