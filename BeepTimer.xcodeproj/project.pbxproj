@@ -24,6 +24,9 @@
 		0F008C171693914200DD8BE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F008BEF1693914200DD8BE9 /* Foundation.framework */; };
 		0F008C1F1693914200DD8BE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F008C1D1693914200DD8BE9 /* InfoPlist.strings */; };
 		0F008C221693914200DD8BE9 /* BeepTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F008C211693914200DD8BE9 /* BeepTimerTests.m */; };
+		0F86C7F81697D90A000A7FBC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F86C7F71697D90A000A7FBC /* AVFoundation.framework */; };
+		0F86C8001698C117000A7FBC /* Big.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F86C7FF1698C117000A7FBC /* Big.mp3 */; };
+		0F86C8021698C122000A7FBC /* Little.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F86C8011698C122000A7FBC /* Little.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,9 @@
 		0F008C1E1693914200DD8BE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0F008C201693914200DD8BE9 /* BeepTimerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeepTimerTests.h; sourceTree = "<group>"; };
 		0F008C211693914200DD8BE9 /* BeepTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeepTimerTests.m; sourceTree = "<group>"; };
+		0F86C7F71697D90A000A7FBC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0F86C7FF1698C117000A7FBC /* Big.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Big.mp3; path = BeepTimer/Sounds/Big.mp3; sourceTree = "<group>"; };
+		0F86C8011698C122000A7FBC /* Little.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Little.mp3; path = BeepTimer/Sounds/Little.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F86C7F81697D90A000A7FBC /* AVFoundation.framework in Frameworks */,
 				0F008BEE1693914200DD8BE9 /* UIKit.framework in Frameworks */,
 				0F008BF01693914200DD8BE9 /* Foundation.framework in Frameworks */,
 				0F008BF21693914200DD8BE9 /* CoreGraphics.framework in Frameworks */,
@@ -89,6 +96,7 @@
 		0F008BDE1693914200DD8BE9 = {
 			isa = PBXGroup;
 			children = (
+				0F86C7FC1697E46F000A7FBC /* Sounds */,
 				0F008BF31693914200DD8BE9 /* BeepTimer */,
 				0F008C1A1693914200DD8BE9 /* BeepTimerTests */,
 				0F008BEC1693914200DD8BE9 /* Frameworks */,
@@ -108,6 +116,7 @@
 		0F008BEC1693914200DD8BE9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0F86C7F71697D90A000A7FBC /* AVFoundation.framework */,
 				0F008BED1693914200DD8BE9 /* UIKit.framework */,
 				0F008BEF1693914200DD8BE9 /* Foundation.framework */,
 				0F008BF11693914200DD8BE9 /* CoreGraphics.framework */,
@@ -161,6 +170,15 @@
 				0F008C1D1693914200DD8BE9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F86C7FC1697E46F000A7FBC /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0F86C8011698C122000A7FBC /* Little.mp3 */,
+				0F86C7FF1698C117000A7FBC /* Big.mp3 */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +258,8 @@
 				0F008C041693914200DD8BE9 /* Default-568h@2x.png in Resources */,
 				0F008C071693914200DD8BE9 /* MainStoryboard_iPhone.storyboard in Resources */,
 				0F008C0A1693914200DD8BE9 /* MainStoryboard_iPad.storyboard in Resources */,
+				0F86C8001698C117000A7FBC /* Big.mp3 in Resources */,
+				0F86C8021698C122000A7FBC /* Little.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
