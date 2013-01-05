@@ -1,14 +1,14 @@
 //
-//  FirstSingleViewTests.m
-//  FirstSingleViewTests
+//  BeepTimerTests.m
+//  BeepTimerTests
 //
 //  Created by Engel Sanchez on 1/1/13.
 //  Copyright (c) 2013 Engel Sanchez. All rights reserved.
 //
 
-#import "FirstSingleViewTests.h"
+#import "BeepTimerTests.h"
 
-@implementation FirstSingleViewTests
+@implementation BeepTimerTests
 
 - (void)setUp
 {
@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in FirstSingleViewTests");
+    STFail(@"Unit tests are not implemented yet in BeepTimerTests");
 }
 
 @end

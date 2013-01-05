@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'FirstSingleView' target in the 'FirstSingleView' project
+// Prefix header for all source files of the 'BeepTimer' target in the 'BeepTimer' project
 //
 
 #import <Availability.h>

@@ -23,7 +23,7 @@
 		0F008C161693914200DD8BE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F008BED1693914200DD8BE9 /* UIKit.framework */; };
 		0F008C171693914200DD8BE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F008BEF1693914200DD8BE9 /* Foundation.framework */; };
 		0F008C1F1693914200DD8BE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F008C1D1693914200DD8BE9 /* InfoPlist.strings */; };
-		0F008C221693914200DD8BE9 /* FirstSingleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F008C211693914200DD8BE9 /* FirstSingleViewTests.m */; };
+		0F008C221693914200DD8BE9 /* BeepTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F008C211693914200DD8BE9 /* BeepTimerTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,19 +32,19 @@
 			containerPortal = 0F008BE01693914200DD8BE9 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0F008BE81693914200DD8BE9;
-			remoteInfo = FirstSingleView;
+			remoteInfo = BeepTimer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F008BE91693914200DD8BE9 /* FirstSingleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstSingleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F008BE91693914200DD8BE9 /* BeepTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeepTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F008BED1693914200DD8BE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0F008BEF1693914200DD8BE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0F008BF11693914200DD8BE9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0F008BF51693914200DD8BE9 /* FirstSingleView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FirstSingleView-Info.plist"; sourceTree = "<group>"; };
+		0F008BF51693914200DD8BE9 /* BeepTimer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeepTimer-Info.plist"; sourceTree = "<group>"; };
 		0F008BF71693914200DD8BE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0F008BF91693914200DD8BE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0F008BFB1693914200DD8BE9 /* FirstSingleView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FirstSingleView-Prefix.pch"; sourceTree = "<group>"; };
+		0F008BFB1693914200DD8BE9 /* BeepTimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeepTimer-Prefix.pch"; sourceTree = "<group>"; };
 		0F008BFC1693914200DD8BE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0F008BFD1693914200DD8BE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0F008BFF1693914200DD8BE9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -54,12 +54,12 @@
 		0F008C091693914200DD8BE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		0F008C0B1693914200DD8BE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0F008C0C1693914200DD8BE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0F008C131693914200DD8BE9 /* FirstSingleViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstSingleViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F008C131693914200DD8BE9 /* BeepTimerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeepTimerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F008C141693914200DD8BE9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		0F008C1C1693914200DD8BE9 /* FirstSingleViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FirstSingleViewTests-Info.plist"; sourceTree = "<group>"; };
+		0F008C1C1693914200DD8BE9 /* BeepTimerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeepTimerTests-Info.plist"; sourceTree = "<group>"; };
 		0F008C1E1693914200DD8BE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0F008C201693914200DD8BE9 /* FirstSingleViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstSingleViewTests.h; sourceTree = "<group>"; };
-		0F008C211693914200DD8BE9 /* FirstSingleViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstSingleViewTests.m; sourceTree = "<group>"; };
+		0F008C201693914200DD8BE9 /* BeepTimerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeepTimerTests.h; sourceTree = "<group>"; };
+		0F008C211693914200DD8BE9 /* BeepTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeepTimerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +89,8 @@
 		0F008BDE1693914200DD8BE9 = {
 			isa = PBXGroup;
 			children = (
-				0F008BF31693914200DD8BE9 /* FirstSingleView */,
-				0F008C1A1693914200DD8BE9 /* FirstSingleViewTests */,
+				0F008BF31693914200DD8BE9 /* BeepTimer */,
+				0F008C1A1693914200DD8BE9 /* BeepTimerTests */,
 				0F008BEC1693914200DD8BE9 /* Frameworks */,
 				0F008BEA1693914200DD8BE9 /* Products */,
 			);
@@ -99,8 +99,8 @@
 		0F008BEA1693914200DD8BE9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0F008BE91693914200DD8BE9 /* FirstSingleView.app */,
-				0F008C131693914200DD8BE9 /* FirstSingleViewTests.octest */,
+				0F008BE91693914200DD8BE9 /* BeepTimer.app */,
+				0F008C131693914200DD8BE9 /* BeepTimerTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,7 +116,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0F008BF31693914200DD8BE9 /* FirstSingleView */ = {
+		0F008BF31693914200DD8BE9 /* BeepTimer */ = {
 			isa = PBXGroup;
 			children = (
 				0F008BFC1693914200DD8BE9 /* AppDelegate.h */,
@@ -127,16 +127,16 @@
 				0F008C0C1693914200DD8BE9 /* ViewController.m */,
 				0F008BF41693914200DD8BE9 /* Supporting Files */,
 			);
-			path = FirstSingleView;
+			path = BeepTimer;
 			sourceTree = "<group>";
 		};
 		0F008BF41693914200DD8BE9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0F008BF51693914200DD8BE9 /* FirstSingleView-Info.plist */,
+				0F008BF51693914200DD8BE9 /* BeepTimer-Info.plist */,
 				0F008BF61693914200DD8BE9 /* InfoPlist.strings */,
 				0F008BF91693914200DD8BE9 /* main.m */,
-				0F008BFB1693914200DD8BE9 /* FirstSingleView-Prefix.pch */,
+				0F008BFB1693914200DD8BE9 /* BeepTimer-Prefix.pch */,
 				0F008BFF1693914200DD8BE9 /* Default.png */,
 				0F008C011693914200DD8BE9 /* Default@2x.png */,
 				0F008C031693914200DD8BE9 /* Default-568h@2x.png */,
@@ -144,20 +144,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0F008C1A1693914200DD8BE9 /* FirstSingleViewTests */ = {
+		0F008C1A1693914200DD8BE9 /* BeepTimerTests */ = {
 			isa = PBXGroup;
 			children = (
-				0F008C201693914200DD8BE9 /* FirstSingleViewTests.h */,
-				0F008C211693914200DD8BE9 /* FirstSingleViewTests.m */,
+				0F008C201693914200DD8BE9 /* BeepTimerTests.h */,
+				0F008C211693914200DD8BE9 /* BeepTimerTests.m */,
 				0F008C1B1693914200DD8BE9 /* Supporting Files */,
 			);
-			path = FirstSingleViewTests;
+			path = BeepTimerTests;
 			sourceTree = "<group>";
 		};
 		0F008C1B1693914200DD8BE9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0F008C1C1693914200DD8BE9 /* FirstSingleViewTests-Info.plist */,
+				0F008C1C1693914200DD8BE9 /* BeepTimerTests-Info.plist */,
 				0F008C1D1693914200DD8BE9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -166,9 +166,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0F008BE81693914200DD8BE9 /* FirstSingleView */ = {
+		0F008BE81693914200DD8BE9 /* BeepTimer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0F008C251693914200DD8BE9 /* Build configuration list for PBXNativeTarget "FirstSingleView" */;
+			buildConfigurationList = 0F008C251693914200DD8BE9 /* Build configuration list for PBXNativeTarget "BeepTimer" */;
 			buildPhases = (
 				0F008BE51693914200DD8BE9 /* Sources */,
 				0F008BE61693914200DD8BE9 /* Frameworks */,
@@ -178,14 +178,14 @@
 			);
 			dependencies = (
 			);
-			name = FirstSingleView;
-			productName = FirstSingleView;
-			productReference = 0F008BE91693914200DD8BE9 /* FirstSingleView.app */;
+			name = BeepTimer;
+			productName = BeepTimer;
+			productReference = 0F008BE91693914200DD8BE9 /* BeepTimer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0F008C121693914200DD8BE9 /* FirstSingleViewTests */ = {
+		0F008C121693914200DD8BE9 /* BeepTimerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0F008C281693914200DD8BE9 /* Build configuration list for PBXNativeTarget "FirstSingleViewTests" */;
+			buildConfigurationList = 0F008C281693914200DD8BE9 /* Build configuration list for PBXNativeTarget "BeepTimerTests" */;
 			buildPhases = (
 				0F008C0E1693914200DD8BE9 /* Sources */,
 				0F008C0F1693914200DD8BE9 /* Frameworks */,
@@ -197,9 +197,9 @@
 			dependencies = (
 				0F008C191693914200DD8BE9 /* PBXTargetDependency */,
 			);
-			name = FirstSingleViewTests;
-			productName = FirstSingleViewTests;
-			productReference = 0F008C131693914200DD8BE9 /* FirstSingleViewTests.octest */;
+			name = BeepTimerTests;
+			productName = BeepTimerTests;
+			productReference = 0F008C131693914200DD8BE9 /* BeepTimerTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -211,7 +211,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Engel Sanchez";
 			};
-			buildConfigurationList = 0F008BE31693914200DD8BE9 /* Build configuration list for PBXProject "FirstSingleView" */;
+			buildConfigurationList = 0F008BE31693914200DD8BE9 /* Build configuration list for PBXProject "BeepTimer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,8 +223,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0F008BE81693914200DD8BE9 /* FirstSingleView */,
-				0F008C121693914200DD8BE9 /* FirstSingleViewTests */,
+				0F008BE81693914200DD8BE9 /* BeepTimer */,
+				0F008C121693914200DD8BE9 /* BeepTimerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,7 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F008C221693914200DD8BE9 /* FirstSingleViewTests.m in Sources */,
+				0F008C221693914200DD8BE9 /* BeepTimerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +293,7 @@
 /* Begin PBXTargetDependency section */
 		0F008C191693914200DD8BE9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0F008BE81693914200DD8BE9 /* FirstSingleView */;
+			target = 0F008BE81693914200DD8BE9 /* BeepTimer */;
 			targetProxy = 0F008C181693914200DD8BE9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -390,8 +390,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FirstSingleView/FirstSingleView-Prefix.pch";
-				INFOPLIST_FILE = "FirstSingleView/FirstSingleView-Info.plist";
+				GCC_PREFIX_HEADER = "BeepTimer/BeepTimer-Prefix.pch";
+				INFOPLIST_FILE = "BeepTimer/BeepTimer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -401,8 +401,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FirstSingleView/FirstSingleView-Prefix.pch";
-				INFOPLIST_FILE = "FirstSingleView/FirstSingleView-Info.plist";
+				GCC_PREFIX_HEADER = "BeepTimer/BeepTimer-Prefix.pch";
+				INFOPLIST_FILE = "BeepTimer/BeepTimer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -411,14 +411,14 @@
 		0F008C291693914200DD8BE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FirstSingleView.app/FirstSingleView";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BeepTimer.app/BeepTimer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FirstSingleView/FirstSingleView-Prefix.pch";
-				INFOPLIST_FILE = "FirstSingleViewTests/FirstSingleViewTests-Info.plist";
+				GCC_PREFIX_HEADER = "BeepTimer/BeepTimer-Prefix.pch";
+				INFOPLIST_FILE = "BeepTimerTests/BeepTimerTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -428,14 +428,14 @@
 		0F008C2A1693914200DD8BE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FirstSingleView.app/FirstSingleView";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BeepTimer.app/BeepTimer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FirstSingleView/FirstSingleView-Prefix.pch";
-				INFOPLIST_FILE = "FirstSingleViewTests/FirstSingleViewTests-Info.plist";
+				GCC_PREFIX_HEADER = "BeepTimer/BeepTimer-Prefix.pch";
+				INFOPLIST_FILE = "BeepTimerTests/BeepTimerTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -445,7 +445,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0F008BE31693914200DD8BE9 /* Build configuration list for PBXProject "FirstSingleView" */ = {
+		0F008BE31693914200DD8BE9 /* Build configuration list for PBXProject "BeepTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0F008C231693914200DD8BE9 /* Debug */,
@@ -454,7 +454,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0F008C251693914200DD8BE9 /* Build configuration list for PBXNativeTarget "FirstSingleView" */ = {
+		0F008C251693914200DD8BE9 /* Build configuration list for PBXNativeTarget "BeepTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0F008C261693914200DD8BE9 /* Debug */,
@@ -463,7 +463,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0F008C281693914200DD8BE9 /* Build configuration list for PBXNativeTarget "FirstSingleViewTests" */ = {
+		0F008C281693914200DD8BE9 /* Build configuration list for PBXNativeTarget "BeepTimerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0F008C291693914200DD8BE9 /* Debug */,
